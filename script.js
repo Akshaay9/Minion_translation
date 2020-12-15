@@ -11,7 +11,7 @@ translatedResult.textContent = ""
 const translateApi =() => {
 
 
-    const url = `https://api.funtranslations.com/translate/vulcan.json?text=${translate.value}`;
+    const url = `https://api.funtranslations.com/translate/minion.json?text=${translate.value}`;
     fetch(url)
         .then(response => response.json())
         .then(contents => {
